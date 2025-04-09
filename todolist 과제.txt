@@ -1,0 +1,16 @@
+react-query 이용해서 Todo List 만들기
+
+1. 생성 / 수정 / 삭제
+2. 조회
+3. 완료 처리
+4. 모두 삭제
+5. 전체 완료 처리
+6. 전체 삭제
+
+React Query, Local Storage 이용해서 구현
+
+예시)
+const getTodoList = async =() =>{
+  const todoList = localStorage.getItem("todoList);
+  return todolist ? Json.parse(todoList) : [] ;
+}
